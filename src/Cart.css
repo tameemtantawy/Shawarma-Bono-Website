@@ -1,0 +1,64 @@
+.cart-page {
+    padding: 20px;
+    background-color: #fff;
+    min-height: 100vh;
+}
+
+.cart-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.cart-item img {
+    width: 100px;
+    margin-right: 20px;
+}
+
+.cart-item-actions button {
+    background-color: #f44336; /* Red color for the remove button */
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.cart-item-actions .quantity {
+    width: 80px; /* Adjust this value to suit your design */
+    padding: 8px; /* Optional: for better touch interaction and aesthetics */
+    margin-right: 10px; /* Optional: adds some space between the input and any buttons next to it */
+}
+
+
+
+
+
+.cart-item-actions button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+}
+
+.checkout-button {
+    background-color: #4CAF50; /* Green color for checkout button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-button:hover {
+    background-color: #388E3C; /* Darker green on hover */
+}
+

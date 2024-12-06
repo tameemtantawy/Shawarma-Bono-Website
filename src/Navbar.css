@@ -1,0 +1,14 @@
+.navbar-username {
+    color: rgb(0, 170, 9);
+    font-size: x-large;
+    font-style: oblique;
+    padding-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #ffffffd7; /* Subtle text shadow for depth */
+
+}
+
+.logout_button{
+    width: 90px;
+}

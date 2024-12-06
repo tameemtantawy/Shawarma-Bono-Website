@@ -1,0 +1,23 @@
+.payment-success {
+    text-align: center;
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.payment-success ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.payment-success li {
+    padding-top: 10px;
+}
+
+.payment-success a {
+    text-decoration: none;
+    color: blue;
+}
